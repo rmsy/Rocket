@@ -1,7 +1,9 @@
-name: Rocket
-main: tc.oc.rocket.RocketPlugin
-version: ${project.version}
-author: MonsieurApple
+name: ${name}
+description: ${description}
+main: ${plugin.mainClass}
+prefix: ${plugin.prefix}
+version: ${version}
+author: Overcast Network
 
 commands:
   rocket:
